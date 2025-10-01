@@ -18,8 +18,10 @@ The Other deck type: This is mostly left in to preserve the original version of 
 
 Overall Success Chance Across Mulligans: This one is hard to word in a way that makes sense and so may seem confusing. What it is doing is showing the chance as you take that action that remains if you took all your mulligans (the number you set as the number of acceptable mulligans) that one of them will be a successful hand. So if you see:
 
-Opening hand : 71.58% - This was your chance before you drew your opening hand that either that hand or one of all remaining mulligans would be successful 
-1 mulligan(s) : 56.77% - This is your chance that if you take this mulligan and all subsequent mulligans one of those hands will be successful 
+Opening hand : 71.58% - This was your chance before you drew your opening hand that either that hand or one of all remaining mulligans would be successful
+
+1 mulligan(s) : 56.77% - This is your chance that if you take this mulligan and all subsequent mulligans one of those hands will be successful
+
 2 mulligan(s) : 34.25% - This is your chance that if you take this mulligan and all subsequent mulligans one of those hands will be successful
 
 This section is not considering the chances of drawing good borderline hands, it is solely looking for hands that are successful as they are drawn.
