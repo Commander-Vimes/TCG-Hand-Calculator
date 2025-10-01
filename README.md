@@ -30,15 +30,15 @@ You can use this feature to compare with borderline hand conversion chance for a
 
 Idx  Borderline Hand------------   Draw Prob (%) Conv Prob (%)
 
-0   Land:0, Ramp:0, OtherCards:7   0.3344        0.0000 
+0   Land:0, Ramp:0, OtherCards:7   0.3344--------0.0000 
 
-1   Land:1, Ramp:0, OtherCards:6   2.3406        7.9944 
+1   Land:1, Ramp:0, OtherCards:6   2.3406--------7.9944 
 
-2   Land:2, Ramp:0, OtherCards:5   6.6793        27.0579 
+2   Land:2, Ramp:0, OtherCards:5   6.6793--------27.0579 
 
-3   Land:2, Ramp:1, OtherCards:4   11.1321       79.7828 
+3   Land:2, Ramp:1, OtherCards:4   11.1321-------79.7828 
 
-4   Land:3, Ramp:0, OtherCards:4   10.0719       39.0603
+4   Land:3, Ramp:0, OtherCards:4   10.0719-------39.0603
 
 We can see that the Borderline Hand with Index 3 has a 79% conversion rate (in this case by turn 3 as that is what I specified) so if I want the hand by turn 3 and it doesn't matter if I get it earlier it would be better for me to keep 2 lands 1 ramp than to mulligan even when I have a free mulligan left to take (such as in EDH) 56.77% vs 79.78%. Comparatively it would only make sense to keep a 3 land 0 ramp (Index 4) after I have already used my first mulligan 34.23% vs 39.06%. This example doesn't consider the possibility of drawing a borderline hand and then the chance of converting it if you did take the mulligan instead of staying with the borderline hand, but as the draw probability of the Borderline Hands are listed this can be estimated or calculated seperately if that level of precision is important.
 
