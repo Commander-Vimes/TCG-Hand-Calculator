@@ -83,7 +83,7 @@ st.title("Opening Hand Probability Calculator")
 # Deck size toggle
 deck_size_option = st.selectbox(
     "Deck Size",
-    ["100 Card", "60 Card", "40 Card", "Custom"]
+    ["100 Card", "60 Card", "52 Card", "40 Card", "Custom"]
 )
 
 num_cards = st.number_input("Number of card types to track", min_value=1, max_value=10, value=2)
@@ -112,7 +112,7 @@ for i in range(num_cards):
 total_wanted_cards = sum(deck_counts.values())
 
 if deck_size_option != "Custom":
-    deck_size_map = {"100 Card": 100, "60 Card": 60, "40 Card": 40}
+    deck_size_map = {"100 Card": 100, "60 Card": 60, "52 Card": 52, "40 Card": 40}
     total_deck_size = deck_size_map[deck_size_option]
     other_count = total_deck_size - total_wanted_cards
     if other_count < 1:
