@@ -45,8 +45,6 @@ Probability of drawing that hand.
 
 Probability of converting the hand with extra draws.
 
-Contribution to overall success probability (for demonstration only).
-
 5. User Interface
 
 Streamlit web app with a clean, interactive layout.
