@@ -1,9 +1,5 @@
 Opening Hand Probability Calculator
 
-This app and it's README were created by a novice coder heavily utilising generative AI and was mostly made for me and my friends to help us build more consistent EDH decks, in the end the app seemed useful and was fun to work on so I added extra features and then felt I may as well make it public in case someone runs across this repo and finds it useful to them. As such the code is sloppy in places and due to my limited mathematical background I have not been able to verify with certainty that the calculations it makes are always correct, though I have done my best with comparative samples and using known values to prove it is at least somewhat accurate most of the time. I hope the app is useful to a couple of people despite all this!
-
-(also I am a total beginner with GitHub so if the way I have organised the repo and releases is wrong I'd appreciate constructive criticism)
-
 This Streamlit app allows you to calculate the probability of drawing a successful (defined by the user) opening hand across multiple TCGs.
 It supports a variety of deck types, mulligan rules, and game-specific mechanics such as being on the play, turn-based draws, and borderline hand conversions (chance to convert hands that are nearly good enough into successful hands by drawing a card each turn for a set number of turns).
 
@@ -162,3 +158,9 @@ Compare success rates between going first and second with specific opening card 
 
 Custom:
 Model arbitrary card games by defining deck size, hand size, and success conditions. Also useful to measure very specific circumstances such as finding cards with draw spells when a certain number of cards have been already removed from your deck. Using this deck type requires some creativity and understanding off the tool.
+
+Notes from the creator:
+
+This app and it's README were created by a novice coder heavily utilising generative AI and was mostly made for me and my friends to help us build more consistent EDH decks, in the end the app seemed useful and was fun to work on so I added extra features and then felt I may as well make it public in case someone runs across this repo and finds it useful to them. As such the code is sloppy in places and due to my limited mathematical background I have not been able to verify with certainty that the calculations it makes are always correct, though I have done my best with comparative samples and using known values to prove it is at least somewhat accurate most of the time. I hope the app is useful to a couple of people despite all this!
+
+(also I am a total beginner with GitHub so if the way I have organised the repo and releases is wrong I'd appreciate constructive criticism)
