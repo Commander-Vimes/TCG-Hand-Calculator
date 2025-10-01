@@ -264,5 +264,5 @@ if st.button("Calculate Probabilities"):
     if mulligans_enabled:
         st.subheader("Overall Success Chance Across Mulligans")
         for i, prob in enumerate(mulligan_probs):
-            label = "Opening hand" if i==0 else f"After {i} mulligan(s)"
+            label = "Opening hand" if i==0 else f"{i} mulligan(s)"
             st.write(f"{label:<20}: {prob*100:.2f}%")
